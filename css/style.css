@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing:border-box;
+}
+
+.night{
+    background-image: url(../images/night.jpg);
+    width: 100vw;
+    height: calc(100vh - 40px);
+    background-position: center;
+    background-size: cover;   
+}
+.day{
+    background-image: url(../images/daytime.jpg);
+    width: 100vw;
+    height: calc(100vh - 40px);
+    background-position: center;
+    background-size: cover;    
+}
+form{
+    width: 35%;
+    margin: 40px auto;
+}
+
+#search, button{
+    padding: 15px 20px;
+    background-color: rgb(80, 173, 249);
+    font-size: 20px;
+    color: rgb(15, 15, 74);
+    margin-right: 15px;
+    border-radius: 8px;
+}
+
+.container{
+    width: 80%;
+    margin: 70px auto;
+}
+
+.weather{
+    font-size: 80px;
+    color: darkblue;
+    display: inline-block;
+    margin-bottom: 80px;
+}
+.img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: -30px;
+}
+
+.text{
+    color: darkgreen;
+    margin-bottom: 15px;
+}
+
+.date{
+    font-size: 50px;
+    width: 300px;
+    display: flex;
+    flex-direction: row-reverse;
+    align-self: flex-end;
+    color: darkblue;
+    margin-bottom: 15px;
+}
+
+.place-name{
+    font-size: 22px;
+    color: rgb(44, 6, 82);
+}
